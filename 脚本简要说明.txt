@@ -1,0 +1,12 @@
+首先:mkdir technode && cd technode && npm init
+
+然后:使用npm install express socket.io --save
+
+在static目录下还会放index.html文件,它将会作为整个应用的启动页面.除了静态文件的请求以外,其他所有的HTTP请求,我们都会输出index.html文件,服务器端不关心路由,所有的路由逻辑都交给在浏览器端的Angular.js去处理.
+
+Bootstrap:快速构建Web项目的前端UI库,依赖jQuery，bower在安装Bootstrap的同时，也会安装jQuery。
+Angular.js:我们的主角，前端MVC框架。
+bower install bootstrap angular --save
+
+
+
